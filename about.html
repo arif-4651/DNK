@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Brandstore</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="index.html">
+                        DNK
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="store.html">Everything</a></li>
+                        <li><a href="category-women.html">Women</a></li>
+                        <li><a href="category-men.html">Men</a></li>
+                        <li><a href="category-accessories.html">Accessories</a></li>
+                        <li><a href="about.html" class="active">About</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <div class="cart-icon" id="cartIcon">
+                        <span class="cart-count">0</span>
+                        <span class="cart-total">$0.00</span>
+                    </div>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <span>Main Menu</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / About
+            </div>
+            <h1 class="page-title">About Us</h1>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="page-content">
+        <div class="container">
+            <div class="content-section">
+                <h2>Welcome to Brandstore</h2>
+                <p>
+                    Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed ut.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                </p>
+                <h2>Our Mission</h2>
+                <p>
+                    Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. We are committed to providing the best quality products and exceptional customer service. Our mission is to make fashion accessible to everyone while maintaining the highest standards of quality and sustainability.
+                </p>
+                <h2>Why Choose Us</h2>
+                <p>
+                    We offer a wide range of products for men, women, and accessories. With worldwide shipping, secure payments, and best quality guarantee, we ensure your shopping experience is smooth and enjoyable. Our team is dedicated to bringing you the latest trends and timeless classics.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>For Her</h4>
+                    <ul>
+                        <li><a href="category-women.html">Women Jeans</a></li>
+                        <li><a href="category-women.html">Tops and Shirts</a></li>
+                        <li><a href="category-women.html">Women Jackets</a></li>
+                        <li><a href="category-women.html">Heels and Flats</a></li>
+                        <li><a href="category-women.html">Women Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>For Him</h4>
+                    <ul>
+                        <li><a href="category-men.html">Men Jeans</a></li>
+                        <li><a href="category-men.html">Men Shirts</a></li>
+                        <li><a href="category-men.html">Men Shoes</a></li>
+                        <li><a href="category-men.html">Men Accessories</a></li>
+                        <li><a href="category-men.html">Men Jackets</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="store.html">Everything</a></li>
+                            <li><a href="category-women.html">Women</a></li>
+                            <li><a href="category-men.html">Men</a></li>
+                            <li><a href="category-accessories.html">Accessories</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2026 Brandstore</p>
+                <p>Powered by Brandstore</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="cart-close" id="cartClose">×</button>
+        </div>
+        <div class="cart-content" id="cartContent">
+            <p>Your cart is empty. Shop now →</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <strong>Total: <span id="cartTotalAmount">$0.00</span></strong>
+            </div>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men - Brandstore</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="index.html">
+                        DNK
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="store.html">Everything</a></li>
+                        <li><a href="category-women.html">Women</a></li>
+                        <li><a href="category-men.html" class="active">Men</a></li>
+                        <li><a href="category-accessories.html">Accessories</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <div class="cart-icon" id="cartIcon">
+                        <span class="cart-count">0</span>
+                        <span class="cart-total">$0.00</span>
+                    </div>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <span>Main Menu</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / Men
+            </div>
+            <h1 class="page-title">Men</h1>
+            <p style="color: var(--text-secondary); margin-top: 16px; max-width: 800px;">
+                Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed ut.
+            </p>
+        </div>
+    </section>
+
+    <!-- Store Content -->
+    <section class="store-layout">
+        <div class="container">
+            <div class="store-layout">
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <div class="sidebar-section">
+                        <h3>Filter by Price</h3>
+                        <div class="filter-group">
+                            <label for="minPrice">Min price</label>
+                            <input type="number" id="minPrice" placeholder="0" min="0">
+                        </div>
+                        <div class="filter-group">
+                            <label for="maxPrice">Max price</label>
+                            <input type="number" id="maxPrice" placeholder="1000" min="0">
+                        </div>
+                        <button class="btn btn-primary btn-filter" id="filterBtn">Filter</button>
+                    </div>
+
+                    <div class="sidebar-section">
+                        <h3>Categories</h3>
+                        <ul class="categories-list">
+                            <li><a href="store.html">Everything</a></li>
+                            <li><a href="category-women.html">Women <span>(17)</span></a></li>
+                            <li><a href="category-men.html" class="active">Men <span>(14)</span></a></li>
+                            <li><a href="category-accessories.html">Accessories <span>(7)</span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-section">
+                        <h3>Our Best Sellers</h3>
+                        <ul class="best-sellers">
+                            <li class="best-seller-item">
+                                <img src="images/imgi_28_product-m-jeans1-400x400.jpg" alt="Dark Gray Jeans" class="best-seller-image">
+                                <div class="best-seller-info">
+                                    <div class="best-seller-title">Dark Gray Jeans</div>
+                                    <div class="best-seller-price">$150.00</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+
+                <!-- Main Content -->
+                <main class="store-main">
+                    <div class="store-toolbar">
+                        <div class="results-count">Showing 1–12 of 14 results</div>
+                        <select class="sort-select" id="sortSelect">
+                            <option value="default">Default sorting</option>
+                            <option value="popularity">Sort by popularity</option>
+                            <option value="rating">Sort by average rating</option>
+                            <option value="latest">Sort by latest</option>
+                            <option value="price-low">Sort by price: low to high</option>
+                            <option value="price-high">Sort by price: high to low</option>
+                        </select>
+                    </div>
+
+                    <div class="products-grid" id="productsGrid">
+                        <!-- Products will be loaded via JavaScript -->
+                    </div>
+
+                    <div class="pagination">
+                        <a href="#" class="current">1</a>
+                        <a href="#">2</a>
+                        <a href="#">→</a>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>For Her</h4>
+                    <ul>
+                        <li><a href="category-women.html">Women Jeans</a></li>
+                        <li><a href="category-women.html">Tops and Shirts</a></li>
+                        <li><a href="category-women.html">Women Jackets</a></li>
+                        <li><a href="category-women.html">Heels and Flats</a></li>
+                        <li><a href="category-women.html">Women Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>For Him</h4>
+                    <ul>
+                        <li><a href="category-men.html">Men Jeans</a></li>
+                        <li><a href="category-men.html">Men Shirts</a></li>
+                        <li><a href="category-men.html">Men Shoes</a></li>
+                        <li><a href="category-men.html">Men Accessories</a></li>
+                        <li><a href="category-men.html">Men Jackets</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="store.html">Everything</a></li>
+                            <li><a href="category-women.html">Women</a></li>
+                            <li><a href="category-men.html">Men</a></li>
+                            <li><a href="category-accessories.html">Accessories</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2026 Brandstore</p>
+                <p>Powered by Brandstore</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="cart-close" id="cartClose">×</button>
+        </div>
+        <div class="cart-content" id="cartContent">
+            <p>Your cart is empty. Shop now →</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <strong>Total: <span id="cartTotalAmount">$0.00</span></strong>
+            </div>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <script src="script.js"></script>
+    <script>
+        // Filter products for Men category
+        document.addEventListener('DOMContentLoaded', () => {
+            const menProducts = products.filter(p => p.category === 'Men');
+            renderProducts(menProducts, 'productsGrid');
+        });
+    </script>
+</body>
+</html>
